@@ -12,12 +12,22 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webbuild.json", {onProgress: UnityProgress});
     </script>
 	<i src="www.corentincournac.com/icon.png"></i>
+	
+	<style>
+	div.main {
+		border: 4px solid black;
+		  margin-top: 64px;
+		  margin-bottom: 64px;
+		  margin-right: 64px;
+		  margin-left: 64px;
+		  left:32px
+		  background-color: #EEEEEE;
+	}
+	</style>
   </head>
   
   <body>
-  <ul class="list-group">
-	<li class="formargin">
-  
+  <div class="main">
     <div class="webgl-content">
       <div id="unityContainer" style="width: 1280px; height: 720px"></div>
       <div class="footer">
@@ -26,8 +36,7 @@
         <div class="title">TechnoRunner</div>
       </div>
     </div>
-	</li>
-	<li class="formargin">
+	<div class="main">
 		<form method="post" name="feedbackform" action="feedbackform.php" class="formargin">
 			<h2><label for="name">Leave Feedback (mail to feedback@corentincournac.com) </label></h2>
 			<p>
@@ -46,6 +55,7 @@
 				<input type="submit" value="Submit feedback">
 			</p>
 		</form>
-	</li>
+	</div>
+	</div>
   </body>
 </html>
