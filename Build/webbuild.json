@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
-"productName": "ProceduralShoot",
-"productVersion": "0.1",
+"companyName": "Corentin Cournac",
+"productName": "TechnoRunner",
+"productVersion": "Alpha 0.9",
 "dataUrl": "webbuild.data.unityweb",
 "wasmCodeUrl": "webbuild.wasm.code.unityweb",
 "wasmFrameworkUrl": "webbuild.wasm.framework.unityweb",
@@ -11,6 +11,6 @@
 "backgroundColor": "#231F20",
 "cacheControl": {"default": "must-revalidate"},
 "developmentBuild": false,
-"multithreading": false,
+"multithreading": true,
 "unityVersion": "2019.2.17f1"
 }
